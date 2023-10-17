@@ -1,19 +1,20 @@
 <?php
 
-use App\Http\Controllers\api\AuthController;
-use App\Http\Controllers\api\CustomerController;
-use App\Http\Controllers\api\InventoryController;
-use App\Http\Controllers\api\OrderController;
-use App\Http\Controllers\api\ProductController;
-use App\Http\Controllers\api\StockInController;
-use App\Http\Controllers\api\StockOpnameController;
-use App\Http\Controllers\api\StockOutController;
-use App\Http\Controllers\api\SupplierController;
-use App\Http\Requests\StockOpnameRequest;
 use App\Models\Inventory;
+use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Requests\StockOpnameRequest;
+use App\Http\Controllers\api\AuthController;
+use App\Http\Controllers\api\OrderController;
+use App\Http\Controllers\api\ProductController;
+use App\Http\Controllers\api\StockInController;
+use App\Http\Controllers\api\CustomerController;
+use App\Http\Controllers\api\StockOutController;
+use App\Http\Controllers\api\SupplierController;
+use App\Http\Controllers\api\InventoryController;
+use App\Http\Controllers\api\StockOpnameController;
 
 /*
 |--------------------------------------------------------------------------
