@@ -18,6 +18,7 @@ use App\Http\Controllers\api\RoleController;
 use App\Http\Controllers\api\StockOpnameController;
 use App\Http\Controllers\api\UserController;
 use App\Models\Product;
+use App\Models\User;
 use Spatie\Permission\Contracts\Role;
 
 /*
